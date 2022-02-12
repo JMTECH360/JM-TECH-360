@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Website slider</title>
+
+<!-- swiper slider css link -->
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/swiper/swiper-bundle.min.css"
+ />
+<!-- swiper slider css link end -->
+
+<!-- font awesome link -->
+<script src="https://kit.fontawesome.com/8650382997.js" crossorigin="anonymous"></script>
+<!-- font awesome link end -->
+
+<!-- Bootstrap 5 Css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- Bootstrap 5 Css link end -->
+
+<!-- css link -->
+    <link rel="stylesheet" href="index.css" type="text/css">
+<!-- css link end -->
+
+<!-- AOS link -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- AOS link end-->
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <div class="circle"></div>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+  <div class="container p-5 pb-3 pt-3">
+    <a href="#" class="navbar-brand">JM TECH 360</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#headersection" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#service" class="nav-link">Service</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">privicy</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-success btn1">254 564 6455</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="headersection">
+  
+    <div class="container p-5 wraper">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 main-text">
+          <h1>Welcome To <span> JM TECH</span></h1>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          
+
+          <button class="btn btn-success btn1">Learn More</button>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6 main-slider">
+        <!-- swiper slider -->
+        <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slide-content" id="html">
+          <i class="fab fa-html5"></i>
+          <h1>HTML 5</h1>
+          <button class="btn btn-success">Enroll Now</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-content" id="css">
+          <i class="fab fa-css3-alt"></i>
+          <h1>CSS 3</h1>
+          <button class="btn btn-success">Enroll Now</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-content" id="bootstrap">
+          <i class="fab fa-bootstrap"></i>
+          <h1>Bootstrap</h1>
+          <button class="btn btn-success">Enroll Now</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-content" id="javascript">
+          <i class="fab fa-js-square"></i>
+          <h1>Javascript</h1>
+          <button class="btn btn-success">Enroll Now</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-content" id="php">
+          <i class="fab fa-php"></i>
+          <h1>PHP</h1>
+          <button class="btn btn-success">Enroll Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+        <!-- swiper slider end -->
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Service Section -->
+    <section id="service">
+    <!-- service Heading -->
+
+        <div class="heading pt-3 pb-3">
+          <div class="container p-5 pt-0 pb-0">
+            <h4>Service</h4>
+          </div>
+          <div class="container p-5 pt-0 pb-0">
+            <h2>Check Our Service</h2>
+          </div>
+        </div>
+
+    <!-- service Heading end -->
+    
+    <!-- service content -->
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-3" data-aos="fade-left" data-aos-duration="1000">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a href="#service1" data-bs-toggle="tab" class="nav-link active">Modi sit est</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service2" data-bs-toggle="tab" class="nav-link">Unde praesentium sed</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service3" data-bs-toggle="tab" class="nav-link">
+                  Pariatur explicabo vel
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#service4" data-bs-toggle="tab" class="nav-link">Nostrum qui quasi</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service5" data-bs-toggle="tab" class="nav-link">Iusto ut expedita aut</a>
+              </li>
+            </ul>
+          </div>
+
+      <!-- tab pane -->
+          <div class="col-sm-12 col-md-12 col-lg-9"  data-aos="fade-left" data-aos-duration="1000"  data-aos-delay="150">
+            <div class="tab-content">
+              <div class="tab-pane container active" id="service1">
+                <h1>Hello Service 1</h1>
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+              </div>
+
+              <div class="tab-pane container fade" id="service2">
+                <h1>Hello Service 2</h1>
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+              </div>
+
+              <div class="tab-pane container fade" id="service3">
+                <h1>Hello Service 3</h1>
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+              </div>
+
+              <div class="tab-pane container fade" id="service4">
+                <h1>Hello Service 4</h1>
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+              </div>
+
+              <div class="tab-pane container fade" id="service5">
+                <h1>Hello Service 5</h1>
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+
+                <p class="text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dignissimos vero repellendus ducimus culpa maiores velit amet, ut minus asperiores eveniet est dicta placeat quia aliquam tempore sed molestias beatae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- service content end -->
+
+    </section>
+<!-- Service Section end -->
+
+<!-- Teacher section -->
+<section id="teacher">
+  <div class="heading pt-3 pb-3">
+    <div class="container p-5 pt-0 pb-0">
+      <h4>Our Teachers</h4>
+    </div>
+    <div class="container p-5 pt-0 pb-0">
+      <h2>About Teachers</h2>
+    </div>
+  </div>
+
+  <div class="container p-5 text-white" data-aos="fade-left"  data-aos-duration="1000">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 p-3 d-flex teacher-card my-2">
+       <div class="img">
+         <img src="img/teachers/teacher-1.jpg" alt="" class="img-fluid">
+       </div>
+       <div class="teacher-info">
+         <h3>Jahid Hasan</h3>
+         <h4>Chief Executive Officer</h4>
+        <p>Explicabo voluptatem mollitia et repellat</p>
+         <div class="social">
+          <ul>
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+          </ul>
+        </div>
+       </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-6 p-3 d-flex teacher-card my-2">
+        <div class="img">
+          <img src="img/teachers/teacher-2.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="teacher-info">
+          <h3>Khadija Akter</h3>
+          <h4>Chief Executive Officer</h4>
+         <p>Explicabo voluptatem mollitia et repellat</p>
+          <div class="social">
+           <ul>
+             <li><i class="fab fa-facebook-f"></i></li>
+             <li><i class="fab fa-twitter"></i></li>
+             <li><i class="fab fa-instagram"></i></li>
+             <li><i class="fab fa-linkedin-in"></i></li>
+           </ul>
+         </div>
+        </div>
+       </div>
+
+       <div class="col-sm-12 col-md-6 col-lg-6 p-3 d-flex teacher-card my-2">
+        <div class="img">
+          <img src="img/teachers/teacher-3.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="teacher-info">
+          <h3>Sanjida</h3>
+          <h4>Chief Executive Officer</h4>
+         <p>Explicabo voluptatem mollitia et repellat</p>
+          <div class="social">
+           <ul>
+             <li><i class="fab fa-facebook-f"></i></li>
+             <li><i class="fab fa-twitter"></i></li>
+             <li><i class="fab fa-instagram"></i></li>
+             <li><i class="fab fa-linkedin-in"></i></li>
+           </ul>
+         </div>
+        </div>
+       </div>
+
+       <div class="col-sm-12 col-md-6 col-lg-6 p-3 d-flex teacher-card my-2">
+        <div class="img">
+          <img src="img/teachers/teacher-4.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="teacher-info">
+          <h3>Faruk Ahmed</h3>
+          <h4>Chief Executive Officer</h4>
+         <p>Explicabo voluptatem mollitia et repellat</p>
+          <div class="social">
+           <ul>
+             <li><i class="fab fa-facebook-f"></i></li>
+             <li><i class="fab fa-twitter"></i></li>
+             <li><i class="fab fa-instagram"></i></li>
+             <li><i class="fab fa-linkedin-in"></i></li>
+           </ul>
+         </div>
+        </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact section -->
+<section id="contact">
+  <div class="heading pt-3 pb-3">
+    <div class="container p-5 pt-0 pb-0">
+      <h4>Contact</h4>
+    </div>
+    <div class="container p-5 pt-0 pb-0">
+      <h2>Contact Us</h2>
+    </div>
+  </div>
+
+  <div class="container p-5">
+    <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-4 my-3">
+     <div class="row">
+       <div class="col-12 contact-card" data-aos="fade-right" data-aos-duration="1000">
+        <i class="fas fa-map-marked-alt"></i>
+         <div class="card-details">
+            <h5>Location</h5>
+            <p>A108 Adam Street, New York, NY 535022</p>
+         </div>
+       </div>
+
+       <div class="col-12 contact-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50">
+        <i class="fas fa-envelope-open-text"></i>
+         <div class="card-details">
+            <h5>E-mail</h5>
+            <p>hjahid1411@gmail.com</p>
+         </div>
+       </div>
+      
+       <div class="col-12 contact-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+        <i class="fas fa-phone-alt"></i>
+         <div class="card-details">
+            <h5>Phone</h5>
+            <p>+8801789-066465</p>
+         </div>
+       </div>
+     </div>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-8 my-3">
+      <div class="row">
+        <div class="col-6">
+          <input type="text" class="form-control" placeholder="First Name">
+        </div>
+        <div class="col-6">
+          <input type="text" class="form-control" placeholder="Last Name">
+        </div>
+        <div class="col-12 my-3">
+          <input type="email" class="form-control" placeholder="E-mail">
+        </div>
+        <div class="col-6">
+          <input type="number" class="form-control" placeholder="Mobile">
+        </div>
+        <div class="col-6">
+          <input type="text" class="form-control" placeholder="Country">
+        </div>
+        <div class="col-12 my-3">
+          <textarea class="form-control" id="" cols="30" rows="5" placeholder="Write Your Message"></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-success btn1 w-100"><i class="fas fa-paper-plane"></i> Send</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+
+  <section id="about">
+    <div class="heading pt-3 pb-3">
+      <div class="container p-5 pt-0 pb-0">
+        <h4>About</h4>
+      </div>
+      <div class="container p-5 pt-0 pb-0">
+        <h2>About Us</h2>
+      </div>
+    </div>
+
+
+    <div class="container p-5 about-1">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 pe-5 about-left" data-aos="fade-right"  data-aos-duration="1000">
+            <h1>
+              EUM IPSAM LABORUM DELENITI VELITENA
+            </h1>
+            <h5>
+              Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave
+            </h5>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-left"  data-aos-duration="1000">
+         <p data-aos="fade-left" data-aos-duration="1000">
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+         </p>
+
+        <ul data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50">
+          <li>
+            <i class="fas fa-check"></i>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequa 
+          </li>
+          <li>
+            <i class="fas fa-check"></i> 
+              Duis aute irure dolor in reprehenderit in voluptate velit
+          </li>
+          <li>
+            <i class="fas fa-check"></i> 
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          </li>
+        </ul>
+
+         <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- About Section end-->
+
+<!-- testimonial -->
+<section id="testimonial">
+  <div class="heading pt-3 pb-3">
+    <div class="container p-5 pt-0 pb-0">
+      <h4>Testimonial</h4>
+    </div>
+    <div class="container p-5 pt-0 pb-0">
+      <h2>Customer Comment</h2>
+    </div>
+  </div>
+
+  <div class="container p-5" data-aos="fade-up" data-aos-delay="100"  data-aos-duration="1000">
+    <div class="carousel slide" data-bs-ride="carousel" id="demo">
+
+      <!-- carousel indicators -->
+      <div class="carousel-indicators">
+        <button data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button data-bs-target="#demo" data-bs-slide-to="3"></button>
+      </div>
+      <!-- carousel indicators end -->
+
+      <!-- carousel-item -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/testimonials/testimonials-1.jpg">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis cumque excepturi fugit asperiores animi, beatae cum tempora minima tenetur, dicta fuga recusandae soluta non tempore temporibus quisquam ex doloribus inventore.
+          </p>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/testimonials/testimonials-2.jpg">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis cumque excepturi fugit asperiores animi, beatae cum tempora minima tenetur, dicta fuga recusandae soluta non tempore temporibus quisquam ex doloribus inventore.
+          </p>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/testimonials/testimonials-3.jpg">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis cumque excepturi fugit asperiores animi, beatae cum tempora minima tenetur, dicta fuga recusandae soluta non tempore temporibus quisquam ex doloribus inventore.
+          </p>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/testimonials/testimonials-4.jpg">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis cumque excepturi fugit asperiores animi, beatae cum tempora minima tenetur, dicta fuga recusandae soluta non tempore temporibus quisquam ex doloribus inventore.
+          </p>
+        </div>
+      </div>
+      <!-- carousel-item end -->
+      
+    </div>
+  </div>
+</section>
+
+<!-- footer section -->
+  <section id="footer">
+    <div class="container p-5 text-white">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <h3>JM TECH 360</h3>
+
+          <div class="address">
+            <span>A108 Adam Street</span>
+            <span>NY 535022, USA</span>
+          </div>
+
+          <div class="address">
+            <span> <b>Mobile :</b>+8801941-161804</span>
+            <span><b>E-mail :</b> hjahid1411@gmail.com</span>
+          </div>
+
+          <div class="social">
+            <ul>
+              <li><i class="fab fa-facebook-f"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+              <li><i class="fab fa-linkedin-in"></i></li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        <div class="col-sm-12 col-md-6 col-lg-2 footer-link my-3">
+          <h5>Useful Link</h5>
+
+          <ul>
+            <li> <i class="fas fa-angle-right"></i> <span>Home</span> </li>
+            <li> <i class="fas fa-angle-right"></i> <span> Service</span></li>
+            <li> <i class="fas fa-angle-right"></i> <span>Contact</span> </li>
+            <li> <i class="fas fa-angle-right"></i> <span>Trems & Condition</span></li>
+            <li> <i class="fas fa-angle-right"></i> <span>Policy</span> </li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-2 footer-link my-3">
+          <h5>Our Services</h5>
+
+          <ul>
+            <li> <i class="fas fa-angle-right"></i> <span>Web Design</span> 
+              </li>
+            <li> <i class="fas fa-angle-right"></i> <span>Web Development</span> </li>
+            <li> <i class="fas fa-angle-right"></i> <span> Product Management</span> 
+             </li>
+            <li> <i class="fas fa-angle-right"></i> <span>Marketing</span> 
+              </li>
+            <li> <i class="fas fa-angle-right"></i> <span>Graphic Design</span> 
+              </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-5 my-3 pe-5 ps-5">
+          <div class="subscrive">
+            <h5>
+              Our Newsletter
+            </h5>
+            <p>
+              Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+            </p>
+
+            <div class="sub-btn d-flex">
+            <input type="text" class="form-control">
+              <button class="btn btn-success">
+                Subscrive
+              </button>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+<!-- footer section end -->
+
+
+
+
+<!-- bootstrap 5 js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- bootstrap 5 js link end -->
+
+
+<!-- swiper slider script -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+ var swiper = new Swiper(".mySwiper", {
+   effect: "coverflow",
+   grabCursor: true,
+   centeredSlides: true,
+   slidesPerView: "auto",
+   coverflowEffect: {
+     rotate: 50,
+     stretch: 0,
+     depth: 100,
+     modifier: 1,
+     slideShadows: true,
+     loop: true,
+
+   },
+  loop:true,
+ });
+</script>
+<!-- swiper slider script end -->
+
+
+<!-- AOS script link -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- AOS script link end -->
+</body>
+</html>
