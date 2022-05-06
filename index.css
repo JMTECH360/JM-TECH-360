@@ -12,6 +12,10 @@ font-family: 'Pacifico', cursive; */
   outline: 0;
   box-sizing: border-box;
 }
+
+section{
+  overflow: hidden;
+}
 :root{
   --black:#212529;
   --blue:#00dcff;
@@ -20,7 +24,7 @@ font-family: 'Pacifico', cursive; */
 body{
   background: var(--black);
   width: 100%;
-  height: 100vh;
+  overflow: none;
 }
 
 #loader {
